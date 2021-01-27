@@ -15,6 +15,7 @@ tar -xf control.tar.xz
 rm control.tar.xz
 cd ..
 rm data.tar.xz
+chmod 4755 usr/bin/darling
 cd ..
 dpkg-deb -Sextreme -z9 --build darling &
 rm -rf darling-dkms
