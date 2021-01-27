@@ -1,6 +1,4 @@
 #!/usr/bin/sh
-#Repackages all .deb files, so they are smaller than 100MB (Github limitation)
-#Expects those to be in the same directory: darling.deb, darling-dkms.deb, darling-dbgsym.deb
 rm -rf darling
 mkdir darling
 cd darling
@@ -15,6 +13,7 @@ tar -xf control.tar.xz
 rm control.tar.xz
 cd ..
 rm data.tar.xz
+chown root:root usr/bin/darling
 chmod 4755 usr/bin/darling
 cd ..
 dpkg-deb -Sextreme -z9 --build darling &
