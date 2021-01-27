@@ -1,0 +1,53 @@
+Package: darling-dbgsym
+Source: darling
+Version: 0.1.20210126~testing
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Lubos Dolezel <lubos@dolezel.info>
+Installed-Size: 47
+Depends: darling (= 0.1.20210126~testing)
+Section: debug
+Priority: optional
+Description: debug symbols for darling
+Build-Ids: 19296583078d13ef5af5ea57c1b21a2b5e21dd2a 7c5fdf3f8ec14c0e8cc5cd091f5f893f21536982 fd586e66bd85a7822abb59ef89f4a8ddbfbd0ee7
+Filename: dists/debian/main/binary-amd64/darling-dbgsym.deb
+Size: 15844
+MD5Sum: f907078ec9945a98ba29ebdd17a4ebd1
+SHA1: 1c3aefa140b495cbb3411c78ae539ff761c2a7e4
+SHA256: b8c37ee9d1758f9fd82633c0586360fcc9abc5f39e0a63a07cb17d5bff88674a
+SHA512: 0d2e67cc1a3cefb13a08f554552c8e65f5d5bb228aa61bd942d2dc3fb5f4316a20090b1bf45de55c1080089c22f659390c23c1b36bcda94de53c8a592392faac
+
+Package: darling-dkms
+Source: darling
+Version: 0.1.20210126~testing
+Architecture: amd64
+Maintainer: Lubos Dolezel <lubos@dolezel.info>
+Installed-Size: 68659
+Depends: dkms
+Section: misc
+Priority: optional
+Description: Kernel module for Darling
+Filename: dists/debian/main/binary-amd64/darling-dkms.deb
+Size: 8812816
+MD5Sum: 0c7784b302c04b77a8b65e1bbb9dcd20
+SHA1: e0b88ad44506ea0812a39946d0f7bece8d0192d3
+SHA256: 5af7f555eca8c3a8df325fac82e4d8350e40645c21ced50af498418c8bed5e74
+SHA512: b095ac05193a06cceae020972a5893209de29f2dc68e9d053782c64094cdacf16f3f67f8e4b1c62b2dcaa7e45356c757d2ea39e7d3af2f4ce389b98232cf1502
+
+Package: darling
+Version: 0.1.20210126~testing
+Architecture: amd64
+Maintainer: Lubos Dolezel <lubos@dolezel.info>
+Installed-Size: 644425
+Depends: libc6 (>= 2.14), fuse, darling-dkms
+Section: misc
+Priority: optional
+Description: Darling
+ macOS emulation layer for Linux
+Filename: dists/debian/main/binary-amd64/darling.deb
+Size: 97733612
+MD5Sum: 3d265caad4b9e52e78f33e453df98c92
+SHA1: 5beafb0fe0ab7b4531ee087c3c55c94836ac770d
+SHA256: 7a6e897390507d1743d19cd3607d26da5d958d367168b568e080c9d4754ccbfa
+SHA512: d61e69c46e5c85ac052229247872cb7349710c0b5da43d17b4d5cda939e644256cda0ac2efd0ec330bfb044583399b19d940b9dcf009b006d6e701b499f5861d
+

@@ -1,0 +1,53 @@
+#!/usr/bin/sh
+#Repackages all .deb files, so they are smaller than 100MB (Github limitation)
+#Expects those to be in the same directory: darling.deb, darling-dkms.deb, darling-dbgsym.deb
+rm -rf darling
+mkdir darling
+cd darling
+ar -xv ../darling.deb
+rm debian-binary
+tar -xf data.tar.xz
+mkdir -p DEBIAN/
+chmod 0755 DEBIAN
+mv control.tar.xz DEBIAN/
+cd DEBIAN
+tar -xf control.tar.xz
+rm control.tar.xz
+cd ..
+rm data.tar.xz
+cd ..
+dpkg-deb -Sextreme -z9 --build darling &
+rm -rf darling-dkms
+mkdir darling-dkms
+cd darling-dkms
+ar -xv ../darling-dkms.deb
+rm debian-binary
+tar -xf data.tar.xz
+mkdir -p DEBIAN/
+chmod 0755 DEBIAN
+mv control.tar.xz DEBIAN/
+cd DEBIAN
+tar -xf control.tar.xz
+rm control.tar.xz
+cd ..
+rm data.tar.xz
+cd ..
+dpkg-deb -Sextreme -z9 --build darling-dkms &
+rm -rf darling-dbgsym
+mkdir darling-dbgsym
+cd darling-dbgsym
+ar -xv ../darling-dbgsym.deb
+rm debian-binary
+tar -xf data.tar.xz
+mkdir -p DEBIAN/
+chmod 0755 DEBIAN
+mv control.tar.xz DEBIAN/
+cd DEBIAN
+tar -xf control.tar.xz
+rm control.tar.xz
+cd ..
+rm data.tar.xz
+cd ..
+dpkg-deb -Sextreme -z9 --build darling-dbgsym &
+wait
+rm -r darling-dkms darling-dbgsym darling

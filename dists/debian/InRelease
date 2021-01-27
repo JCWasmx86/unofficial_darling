@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Codename: termux
+Version: 1
+Architectures: amd64
+Description: debian repository
+Suite: debian
+Date: Wed, 27 Jan 2021 15:59:14 UTC
+MD5Sum:
+ f12a2e2f9942541ad1e190e57e10d947 2060 main/binary-amd64/Packages
+ 8ff4d143123155ae2e749318e194c3a7 1052 main/binary-amd64/Packages.xz
+ ae149829cbde79d343419a8d3b926919 4462551 main/Contents-amd64
+ 717fecb11aea68778a225be8b8d326b0 214384 main/Contents-amd64.xz
+SHA1:
+ eb1f657382ac3b7b2f3559615d30e463354ddc87 2060 main/binary-amd64/Packages
+ 91f7b4ae78465be1635d4df318ec41ec7a6673a9 1052 main/binary-amd64/Packages.xz
+ 857ac3118585da3910be13670b4e07506ec96e80 4462551 main/Contents-amd64
+ 7e2c1fb989fa33ad308bd7e2fb1a41e0f5d2d650 214384 main/Contents-amd64.xz
+SHA256:
+ 7703c245c7ff17783d8cfd06ac40e6df75dae7c9df9923290adff279150e7b25 2060 main/binary-amd64/Packages
+ 89681bdc9ca68c8a0606f82a9d646671288ddabd39cb3774e4e2997eedf42264 1052 main/binary-amd64/Packages.xz
+ c5fed618d4abc14e9cddf1dbd71423be90fcc0c29dea0db3464f1be631de3fb3 4462551 main/Contents-amd64
+ 8a9a972883bc6be9fc000ef707b9544e2b027e51e327cbba3dfaebcd740e9457 214384 main/Contents-amd64.xz
+SHA512:
+ d5620adb4f9fc4961e41ebc409eb37cac84e5337b90f2c3922a80c972e12e014d7ee0eee60a0781b064ece34aeb3c7cf35bb0150cf3e48e9db494310121a8a90 2060 main/binary-amd64/Packages
+ 2c7b8c7a31b9f09c04f006b25e873c112e7c997cf853eec731b431175e6c401c5944e6169c3a84c27c253f07f181feedbcb13d0617dc30c7a296000b2784db08 1052 main/binary-amd64/Packages.xz
+ 84015be717d268fd686dacaa816c79826e67083aa37bda70c1e179ea14184cf8e1f95b9433b9dee14ca0f56399998dec47fcb71c6e59b1944c214bdf56ad1521 4462551 main/Contents-amd64
+ cab4688c42f5c62c23ed3e06fbcb2ef831c1f092dd057ce453bfb511a8f36aee4c4992e190b053b3808e40a2c832f55e75ca58469d661ce6eca002f99be7f07c 214384 main/Contents-amd64.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEEkVOj7Hh/2Awb8ovwRvo0DgOnxkoFAmARjdQACgkQRvo0DgOn
+xkptVwv/XbdEK3NNslg1B+6iALvbsOcVnr7sypaOezAXpahqnj8A24FrbwAsVTF9
+UPMNQp9VuUrz5XpFh2+wuCFC072nu6sgxqTq5x3dGsy5OBMzFtu4fkKYrGzXJrdH
+hWJ4WjUivpdQGMqnXYsHhlzJmWoK1VBIUbZOigamJTzvH7NruXj0CELU4pdg8xlG
+GQDGPy+xH/wQrm8xJ+at+Jc1E7lcoRy2eryxEH6q7mbwHRXcKfo+ezJWrZJ7VRIB
+hHVcqHyd82Mz4CPhv/9gmWnMLMI5WQJ/M7nPIxaHYvr7E/k8CU5cyqOfInpcXNUi
+pCsNI5l/sKFZDhHVjIiz0x6up46sFAXV67Ej6bx8O9ZOfDnfjYYlo9nkXg73M9Vl
+yMT12OM56ZBHno1GGlzy0455OJkZicG5BtcN7yqPb+/zxNLXC067shQRTfyd2MiU
+N9XpP8McZ2gqr58Ps5UUWV3ZmOQtROpGvVhjghopDV2Mq4BTlxIplO8YKvTzD3SQ
+3vXXgIxs
+=FaDg
+-----END PGP SIGNATURE-----
