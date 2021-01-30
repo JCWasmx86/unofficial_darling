@@ -23,6 +23,6 @@ git clone --recursive -b update-sources https://github.com/darlinghq/darling.git
 cd darling
 ./tools/makedeb
 ```
-After this, I'm applying the `compressBetter` script to improve compression.
+After this, I'm applying the `compressBetter`(Has to be run as root) script to improve compression.
 
 I did this to bring the filesize under 100MB, so github accepts it.
