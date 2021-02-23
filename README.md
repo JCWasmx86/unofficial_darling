@@ -19,7 +19,7 @@ sudo apt update&&sudo apt install darling
 Use all of these files on your own risk.
 The .deb files are just built by using:
 ```
-git clone --recursive -b update-sources https://github.com/darlinghq/darling.git
+git clone --recursive https://github.com/darlinghq/darling.git
 cd darling
 ./tools/makedeb
 ```
