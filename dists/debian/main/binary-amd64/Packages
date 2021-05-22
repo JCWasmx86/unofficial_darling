@@ -1,25 +1,25 @@
 Package: darling-dbgsym
 Source: darling
-Version: 0.1.20210521~bullseye
+Version: 0.1.20210522~bullseye
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
 Installed-Size: 47
-Depends: darling (= 0.1.20210521~bullseye)
+Depends: darling (= 0.1.20210522~bullseye)
 Section: debug
 Priority: optional
 Description: debug symbols for darling
-Build-Ids: 1b849133071126111e6185dd0b237d5c05e441a8 9d9c13fdae9a98817843004c4d34a390ab48d289 b62a1035ab8598d461bab118cc1ef75b9d0a1ee8
+Build-Ids: 1b849133071126111e6185dd0b237d5c05e441a8 75c957a935d7618d45110a53a7b4267de6c319a7 9d9c13fdae9a98817843004c4d34a390ab48d289
 Filename: dists/debian/main/binary-amd64/darling-dbgsym.deb
-Size: 15924
-MD5Sum: 34e5c3376ffeae2216b46998d4ff290a
-SHA1: 668c5d29da52484ba7da7aee606121c7f274cff5
-SHA256: 28283f734b2f3931b9aaf127326fe581c0d8d1cfac0bf6108525383f48918fde
-SHA512: 64184cbd2ab943494b54d4957f8ce2837167b1f56f7909cffcd145a1673b2eef2b389ea42834b0c042f2c1798de69eaabcfef3d974fd05ae1afcc14af3460096
+Size: 15956
+MD5Sum: ef46fde9dee31d7fc569a8f708062e49
+SHA1: 4f35f845a4f724f1af9e92f963fcdb95953fd45a
+SHA256: 47c181ef1a640c45f54eac3cac87f285787a6604605358ac2db048ae13c3df2c
+SHA512: 0b60c82015ba91b788935e561bd309dc60f81acc876ca4b02a30031d3f38e9270c9d7c5fb4387c04aac061ae6c36e6c3ed0fe92132268f1c32a9e0fb58578c64
 
 Package: darling-dkms
 Source: darling
-Version: 0.1.20210521~bullseye
+Version: 0.1.20210522~bullseye
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
 Installed-Size: 68663
@@ -28,26 +28,26 @@ Section: misc
 Priority: optional
 Description: Kernel module for Darling
 Filename: dists/debian/main/binary-amd64/darling-dkms.deb
-Size: 8811960
-MD5Sum: fba2eef1d5051c7ea975534850acc07a
-SHA1: 87ec260ed8c6add662507e9b6e1d96a402ac5fe5
-SHA256: 56e0d60ea73a899a27fb9fa90cb596b9697ee6a97ddd34186da9ab70b81a0672
-SHA512: 41185a896a129f779ac75aa00183aebaf11a4f963b8e6b7841d451d446290301f72031461545154c6ef94252e43d88bce2b947c5a21b728ff63eaab6e2480d59
+Size: 8813120
+MD5Sum: 877665eba022dc86658d0bcaca1f4044
+SHA1: 9dffbc553f9bfa655011dbe73544dca16b0b7f04
+SHA256: 2d6ded456ef6886c831568ba138785a4af19025a059cf5c0c12e700a2d4bc9e0
+SHA512: 018649501c805c89925c79bda6f44c6dd1a1f94df41abeb4c173100dffd1e1d839e2c1851ddce7da113ebecdac4b582981b18cd6d0bd84b8e0a467723d121cd0
 
 Package: darling
-Version: 0.1.20210521~bullseye
+Version: 0.1.20210522~bullseye
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
-Installed-Size: 666835
+Installed-Size: 666938
 Depends: libc6 (>= 2.14), libavcodec58, libavformat58, libavresample4 (>= 7:4.0), libavutil56, libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.2), libgif7 (>= 5.1), libgl1, libglu1-mesa | libglu1, libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libtiff5 (>= 4.0.3), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxkbfile1 (>= 1:1.1.0), libxrandr2, fuse, darling-dkms
 Section: misc
 Priority: optional
 Description: Darling
  macOS emulation layer for Linux
 Filename: dists/debian/main/binary-amd64/darling.deb
-Size: 101197140
-MD5Sum: 4a2de371a16a4cdd99c050f8859cc600
-SHA1: fa286c6b3e1f2b1682ecc5d27e7ba59e30c80a36
-SHA256: d0c90f0507f7c7dc47446ec63ca751ed9e5185fa8098a54d6c332ca17d3785cc
-SHA512: 921ebd2b442d9b77ec7345a5321a03fc085f90e4b0b13f36afdd33df828c488cfeee904702d100c6c34efd48e29e88687cf237312e956526fee5d412991b2ba8
+Size: 101186188
+MD5Sum: cbda1b9f99bfbf2cd0602eb5a1db900f
+SHA1: a5ddfdddd8cf062cd8d1a2f869db8cb6774ac7cf
+SHA256: 58236740b478b2df8d67e310cfb5a5b40206a374c5e1a8a4de12ab8905cdc711
+SHA512: 20a0ed326bb58ddd9d58ef3fb9d317137bd48a0043890e74c890e7b2676ab7fc402fc5adee0ca4b067288770c7b8db6b05ef146db4f3966ca46d3a5182b8da66
 
