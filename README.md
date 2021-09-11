@@ -9,9 +9,9 @@ It will be updated up to two times a week.
 # Update sources.list 
 echo "deb https://github.com/JCWasmx86/unofficial_darling/raw/main debian main" | sudo tee -a /etc/apt/sources.list
 # Add public key
-wget https://raw.githubusercontent.com/JCWasmx86/JCWasmx86.github.io/master/jcwasmx86.pgp&&sudo apt-key add jcwasmx86.pgp&&rm jcwasmx86.pgp
+wget https://raw.githubusercontent.com/JCWasmx86/JCWasmx86.github.io/master/jcwasmx86.pgp && sudo apt-key add jcwasmx86.pgp && rm jcwasmx86.pgp
 # Install darling
-sudo apt update&&sudo apt install darling
+sudo apt update && sudo apt install darling
 ```
 
 ## Disclaimer
