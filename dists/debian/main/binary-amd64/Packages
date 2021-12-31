@@ -1,53 +1,53 @@
 Package: darling-dbgsym
 Source: darling
-Version: 0.1.20210808~bullseye
+Version: 0.1.20211227~sid
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
-Installed-Size: 47
-Depends: darling (= 0.1.20210808~bullseye)
+Installed-Size: 46
+Depends: darling (= 0.1.20211227~sid)
 Section: debug
 Priority: optional
 Description: debug symbols for darling
-Build-Ids: 1b849133071126111e6185dd0b237d5c05e441a8 29f3c8b4f37393bf16684a0a7f45e4b70fc31e76 9d9c13fdae9a98817843004c4d34a390ab48d289
+Build-Ids: 6466f01d7cd73662b16d0575b814986583fb274e 8016ed10d75eb2c9adeac90a396b48a3926e9480 9c357897edbe6b61bc1ab8c223a4edcb43fca614
 Filename: dists/debian/main/binary-amd64/darling-dbgsym.deb
-Size: 16072
-MD5Sum: df2b0f2115f12e207c12d23dfe4cb6ff
-SHA1: 1d4949675e0b12d3f0acc8c426bd3fdd40a577d7
-SHA256: 7af76aa4a1a5c03900d7575c8dc89d51aa81a62ae5116c6bc552b1963b3208c8
-SHA512: 6f1e6f231864da5935d6823df46953da0d901c949ab5037fdb6ad75c5e0214ab5e8630bb416a7115f01237b36a628176fcdf4a50820544817c0c247547264630
+Size: 15556
+MD5Sum: 6e157baafd05d30a4af1c56dfea4983b
+SHA1: 2ee66d7181ff374230096c859214a4a15a695e7e
+SHA256: 2842cd067a7e00c3c56c688f5ab70e5513f4e14316330bc30e06a20f8750a677
+SHA512: c14577ff6265b381c2b43e03a86f48360225438ea72f29b130f404f8b8f4b10d9ed3e33e53038e4d76c81a2770c80ea3bf59469a43cea8d1c9ae6b577d884835
 
 Package: darling-dkms
 Source: darling
-Version: 0.1.20210808~bullseye
+Version: 0.1.20211227~sid
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
-Installed-Size: 214514
+Installed-Size: 68665
 Depends: dkms
 Section: misc
 Priority: optional
 Description: Kernel module for Darling
 Filename: dists/debian/main/binary-amd64/darling-dkms.deb
-Size: 18533156
-MD5Sum: 0a6fc7b7d58bf61a16a9b59d2432c987
-SHA1: f5537199b6aad96b216908975765ed752a1ccb3e
-SHA256: 952a1000699f08600f92f4a1bff0b7091cdacf62e10bc7bc8d72cb292fbd6980
-SHA512: dda0d51d1964e02bb9622be775b07a08a0e7f1dac43b23e8b780a30b81498b9c35b09437bc2f95fe79d56b45e773caa0f3ef5db7e2faf41b8f0546b9459c9944
+Size: 8813512
+MD5Sum: f4402142942fef17d50153142851ab85
+SHA1: e92b773f7ace0e156ae20b3d26dcc2f59018e31a
+SHA256: ece1224212fad1e5b7244c52fada905e968db052898ca32b5607a0d1c58ffafb
+SHA512: 123ed31ca07cb30f709f40bfadbe6e55c7f3623b2f438cdb62df14a9e44cc87f340c1eba6f752e33aab3be0b77f56ea77f67b1ac86a12218953deb50df8cb665
 
 Package: darling
-Version: 0.1.20210808~bullseye
+Version: 0.1.20211227~sid
 Architecture: amd64
 Maintainer: Lubos Dolezel <lubos@dolezel.info>
-Installed-Size: 679967
-Depends: libc6 (>= 2.14), libavcodec58, libavformat58, libavresample4 (>= 7:4.0), libavutil56, libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.2), libgif7 (>= 5.1), libgl1, libglu1-mesa | libglu1, libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libtiff5 (>= 4.0.3), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxkbfile1 (>= 1:1.1.0), libxrandr2, fuse, darling-dkms
+Installed-Size: 671453
+Depends: libc6 (>= 2.33), libavcodec58 (>= 10:4.4.1), libavformat58 (>= 10:4.4.1), libavresample4 (>= 10:4.4), libavutil56 (>= 10:4.4.1), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.9.14), libegl1, libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libfuse2 (>= 2.2), libgif7 (>= 5.1), libgl1, libglu1-mesa | libglu1, libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), libpulse0 (>= 0.99.1), libtiff5 (>= 4.0.3), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxkbfile1 (>= 1:1.1.0), libxrandr2, fuse, darling-dkms
 Section: misc
 Priority: optional
 Description: Darling
  macOS emulation layer for Linux
 Filename: dists/debian/main/binary-amd64/darling.deb
-Size: 102385104
-MD5Sum: e5b3a671868549c89f580a1d219cbfdf
-SHA1: c9999a4fd9204fd76f5c18d0d4bc8d3db7fe35e6
-SHA256: 0f0cc8691a7e00e3b182b8925c23640be3e3fe0dd5c642be0fab458d9efeb674
-SHA512: 1e8d3a4f1758b3e9607f7437e61328056874bc4a4da7f6431c06e3a012e2550adec94baffd26296da59a26a2eebf20265f327d485da528ac6a183d426c51f562
+Size: 99686868
+MD5Sum: cf71804b2de7b905ee46158f498bde08
+SHA1: cce0bf388ea01ac9f6c5468f9d29fcbef980b3db
+SHA256: 194b37676d5bef6abcf811b6f0c4f08babef26feb1a6ee9f24ce59bf1b8eba21
+SHA512: efc5877fa29784e28eaa7e33f646bef531e1f3ee7ba915dacf6130580e652f1d2fdb8698cc814ba71ad408d21ceaa3df7a14405558f7af5846f009a61a88346a
 
